@@ -4,7 +4,7 @@ import jm.task.core.jdbc.model.User;
 
 import java.util.List;
 
-public class UserDaoHibernateImpl implements UserDao {
+public abstract class UserDaoHibernateImpl implements UserDao {
     public UserDaoHibernateImpl() {
 
     }
@@ -21,7 +21,7 @@ public class UserDaoHibernateImpl implements UserDao {
     }
 
     @Override
-    public void saveUser(String name, String lastName, byte age) {
+    public void saveUser(String name, String lastName, Byte age) {
 
     }
 
