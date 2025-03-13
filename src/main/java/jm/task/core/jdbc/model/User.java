@@ -50,7 +50,6 @@ public class User {
         this.age = age;
     }
 
-    // id геттер/сеттер
     public Long getId() {
         return id;
     }
